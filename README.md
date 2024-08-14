@@ -1,3 +1,3 @@
-# NOTES
+# gitpod-dotfiles
 
-Handy for tracking concepts I'm either trying to grasp or refer back to
+Dotfiles for customizing my terminal environment in gitpod
