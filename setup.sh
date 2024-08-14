@@ -1,9 +1,9 @@
 #!/bin/bash
 
-./config/install.sh
-cat ./config/exports.txt.txt >> "$HOME/.bashrc"
-cat ./config/aliases.txt >> "$HOME/.bashrc"
-
-source '$HOME/.bashrc'
-
+cd $PWD/config
+./install.sh
+cat exports.txt >> "$HOME/.bashrc"
+cat aliases.txt >> "$HOME/.bashrc"
+cd
+source "$HOME/.bashrc"
 echo -e "\nShell sourced successfully"
